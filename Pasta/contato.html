@@ -1,0 +1,130 @@
+<!DOCTYPE html> 
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineMagic - Contato</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            background-color: #000000;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            color: white;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .form-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center; 
+            padding: 20px;
+            background-color: #f9f9f9;
+            flex: 1;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #000000;
+            color: white;
+        }
+
+        input[type="email"] {
+            padding: 10px;
+            margin: 10px 0;
+            width: 80%;
+            max-width: 400px;
+            text-align: center;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        input[type="submit"] {
+            padding: 5px 15px;
+            font-size: 12px;
+            background-color: #7a580d;
+            color: white;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            margin-top: 10px;
+            align-self: center;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #5a430d;
+        }
+
+        .info {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo" style="height: 50px;">
+            <img src="logo.png" alt="CineMagic">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Principal</a></li>
+                <li><a href="historia.html">História</a></li>
+                <li><a href="somos.html">Quem Somos</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="form-container">
+        <form>
+            <label for="email"><h2 style="text-align: center;">E-mail:</h2></label>
+            <p>Você possui a possibilidade de nos informar seu E-mail para o caso de precisarmos entrar em contato.</p>
+            <input type="email" id="email" name="email" required>
+            <input type="submit" value="Enviar">
+        </form>
+        <div class="info">
+            <h3>Endereço da Loja</h3>
+            <p>Av. Floriano Peixoto, 123 - Centro, Uberlândia, MG</p>
+            <h3>Telefone</h3>
+            <p>(34) 9234-5678</p>
+            <h3>E-mail para Contato</h3>
+            <p>CineMagic@exemplo.com</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 CineMagic. Todos os direitos reservados.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+

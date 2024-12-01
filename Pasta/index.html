@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineMagic - Principal</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .imagem-banner {
+            background-image: url('cinema.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+            width: 100%;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+            padding: 20px;
+            box-sizing: border-box;
+            flex: 1;
+        }
+
+        .bemvindo {
+            width: 49.5%;
+            background-color: #7a580d; 
+            color: white;
+            padding: 20px;
+        }
+
+        .importancia {
+            width: 49.5%;
+            background-color: #7a580d; 
+            color: white;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .caixa {
+            background-color: black;
+            opacity: 0.5;
+            padding: 20px;
+            margin: 10px 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #000000;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo" style="height: 50px;">
+            <img src="logo.png" alt="CineMagic">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Principal</a></li>
+                <li><a href="historia.html">História</a></li>
+                <li><a href="somos.html">Quem Somos</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="imagem-banner"></div>
+
+    <main class="container">
+        <div class="bemvindo">
+            <h2>Bem-vindo à CineMagic!</h2>
+            <p>Descubra um mundo de histórias fascinantes e personagens memoráveis. Oferecemos uma vasta seleção de filmes, desde clássicos atemporais até as produções mais recentes. Nossa plataforma garante qualidade de imagem superior e uma experiência de visualização sem interrupção. Junte-se a nós para uma jornada cinematográfica única!</p>
+            <p>Explore nossos serviços e aproveite a conveniência de alugar ou comprar seus filmes favoritos diretamente de casa. Estamos aqui para proporcionar o melhor em entretenimento!</p>
+            <br><br><br>
+            <p style="font-style: italic; color: #f3b328; font-size: 1.5em; font: sans-serif;">"Um filme é como uma janela para o mundo, revelando não apenas histórias, mas também a essência da alma humana." — Martin Scorsese</p>
+            <br><br>
+            <img src="foto.jpg" alt="CineMagic" style="width: 60%; height: auto; margin-top: 20px; border-radius: 8px;">
+        </div>
+
+        <div class="importancia">
+            <h2>Importância dos Filmes</h2>
+            <div class="caixa">
+                <h3>Ferramenta de Impacto Social</h3>
+                <p>Muitas vezes, vemos os filmes apenas como uma forma de entretenimento, mas eles têm um imenso poder de emocionar e impactar as pessoas. Quando abordam temas relevantes, podem se tornar obras de grande importância para questões sociais. Há filmes que exploram questões complexas, retratando a realidade de maneira crítica e nos levando a refletir sobre determinados assuntos, frequentemente de natureza social. Para muitos espectadores, isso pode ser um convite à reflexão sobre as desigualdades que permeiam nossa sociedade. Essa capacidade de reflexão e crítica é fundamental, revelando como o cinema pode atuar como uma ferramenta social, impactando não apenas o ambiente imediato, mas também realidades distantes.</p>
+            </div>
+            <div class="caixa">
+                <h3>Aproximação Entre Pessoas</h3>
+                <p>Os filmes têm uma capacidade única de aproximar as pessoas, criando experiências compartilhadas que transcendem diferenças culturais, linguísticas e sociais. Quando nos reunimos para assistir a um filme, seja no cinema, em casa ou em eventos ao ar livre, estamos não apenas absorvendo uma narrativa, mas também participando de um ritual coletivo. Essa experiência pode gerar conversas, reflexões e até mesmo debates acalorados, aproximando amigos e familiares. Além disso, filmes têm o poder de nos expor a novas perspectivas. Ao conhecer a vida e as lutas de pessoas de diferentes culturas, podemos ampliar nossa compreensão do mundo e cultivar a empatia. Em suma, o cinema não é apenas uma forma de entretenimento; é uma ferramenta poderosa que nos convida a explorar a condição humana.</p>
+            </div>
+            <div class="caixa">
+                <h3>Documentar a História e a Cultura de uma Sociedade</h3>
+                <p> Eles servem como um registro visual do tempo, capturando costumes, valores e desafios de diferentes épocas. Ao assistir a filmes, as pessoas podem entender melhor o contexto histórico e social em que foram criados. Essa função de registro ajuda a preservar a memória cultural e a transmitir lições do passado às novas gerações, contribuindo para a formação de uma consciência crítica sobre o presente e o futuro.</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 CineMagic. Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

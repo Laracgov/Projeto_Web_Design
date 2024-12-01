@@ -1,0 +1,103 @@
+<!DOCTYPE html> 
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineMagic - História</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            background-image: url('fundo.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #333;
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            color: white;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .container {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .historia-box {
+            background-color: rgba(122, 88, 13, 0.8);
+            border-radius: 10px;
+            padding: 20px;
+            max-width: 800px;
+            text-align: center;
+            position: relative; /* Permite mover a caixa sem afetar o layout */
+            top: -150px; /* Move a caixa 200px para cima */
+        }
+
+        h2 {
+            color: #f3b328;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo" style="height: 50px;">
+            <img src="logo.png" alt="CineMagic">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Principal</a></li>
+                <li><a href="historia.html">História</a></li>
+                <li><a href="somos.html">Quem Somos</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="historia-box">
+            <h2>Nossa História</h2>
+            <p>A Locadora de Filmes CineMagic foi fundada em 2000 com a missão de oferecer os melhores filmes aos nossos clientes. Desde o início, nossa paixão pelo cinema nos motivou a criar um espaço onde os amantes da sétima arte pudessem encontrar uma vasta seleção de títulos, desde clássicos atemporais até as últimas novidades do mercado.</p>
+            <p>O termo "Sétima Arte" refere-se ao cinema e sua capacidade de unir diferentes formas de expressão artística, como a literatura, a pintura, o teatro, a dança, a música e a fotografia. Essa denominação destaca a singularidade do cinema em contar histórias de maneira visual e emocional, impactando o público de formas profundas e memoráveis.</p>
+            <p>Com o passar dos anos, expandimos nossos serviços, incorporando tecnologia de ponta para garantir uma experiência de visualização inigualável. Em 2010, lançamos nossa plataforma online, permitindo que nossos clientes alugassem e comprassem filmes de qualquer lugar, a qualquer momento.</p>
+            <p>Hoje, a CineMagic é mais do que uma locadora; somos uma comunidade de cineastas e cinéfilos dedicados a celebrar a arte do cinema e a promover histórias que emocionam e inspiram.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 CineMagic. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

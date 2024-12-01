@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineMagic - Serviços</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            flex: 1;
+        }
+
+        header {
+            background-color: #000000;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            color: white;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        .servicos {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            height: 60%;
+        }
+
+        .servico {
+            height: 60%;
+            margin: 0 10px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            text-align: center;
+            border-radius: 8px;
+        }
+
+        .botao-quadrado {
+            display: block;
+            margin: 0 auto 10px;
+            width: 200px;
+            height: 200px;
+            background-color: #7a580d;
+            border-radius: 8px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .botao-quadrado img {
+            width: 100%;
+            height: auto;
+        }
+
+        .categorias {
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        .categoria-botao {
+            margin: 5px;
+            padding: 10px 15px;
+            background-color: #7a580d;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #000000;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Principal</a></li>
+                <li><a href="historia.html">História</a></li>
+                <li><a href="somos.html">Quem Somos</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2>Serviços Prestados</h2>
+
+    <div class="servicos">
+        <div class="servico">
+            <button class="botao-quadrado">
+                <img src="placa.jpg" alt="Alugamos e Vendemos Filmes">
+            </button>
+            <h3>Alugamos e Vendemos Filmes</h3>
+            <p>Oferecemos uma vasta seleção de filmes para locação e venda, garantindo que você tenha sempre as melhores opções de entretenimento.</p>
+        </div>
+        
+        <div class="servico">
+            <button class="botao-quadrado">
+                <img src="cd.jpg" alt="Vendemos CDs">
+            </button>
+            <h3>Vendemos CDs</h3>
+            <p>Além de filmes, disponibilizamos uma variedade de CDs para venda.</p>
+        </div>
+
+        <div class="servico">
+            <button class="botao-quadrado">
+                <img src="caixa.jpg" alt="Entregamos na sua Casa">
+            </button>
+            <h3>Entregamos na sua Casa</h3>
+            <p>Facilitamos sua experiência de compra com entrega de CDs diretamente na sua casa, para sua total comodidade.</p>
+        </div>
+    </div>
+
+    <div class="categorias">
+        <h2>Categorias de Filmes Disponíveis</h2>
+        <button class="categoria-botao">Animações</button>
+        <button class="categoria-botao">Comédia</button>
+        <button class="categoria-botao">Romance</button>
+        <button class="categoria-botao">Terror</button>
+        <button class="categoria-botao">Suspense</button>
+        <button class="categoria-botao">Ação</button>
+        <button class="categoria-botao">Ficção Científica</button>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 CineMagic. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
